@@ -1,0 +1,152 @@
+
+body, ul {
+  margin: 0;
+  padding: 0;
+  overflow-y: inherit;
+  font-family: 'Source Sans Pro' !important;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+.header__container {
+    max-width: 100%;
+    height: 54px;
+    background: #313131;
+    background-image: linear-gradient(to right, #29b0b6, #0c9);
+    display: flex;
+}
+
+/* Header Logo */
+
+.header--logo {
+    height: 54px;
+    width: auto;
+    float: left;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.logo__wrapper > a {
+    display: flex;
+    padding: 0;
+    height: 30px;
+    align-items: center;
+    margin: 12px 0 0 26px;
+}
+
+.css-logo-text {
+    margin: 0;
+    width: 127px;
+    height: 16px;
+    float: left;
+}
+
+.css-logo-icon {
+    height: 30px;
+    width: 27px;
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+/* Nav Header */
+
+.navBar {
+    height: 54px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navBar > ul > li {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 15px 10px 15px;
+    position: relative;
+    background: #333;
+    box-sizing: border-box;
+    height: 40px;
+
+    font: inherit;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    padding: 0 33px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+}
+
+.navBar > ul > li.selected{
+    background-color: rgba(93,218,224,0.4);
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Header Right */
+
+.headerRightBar {
+    height: 54px;
+    width: auto;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.registerSignIn {
+    float: left;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 28px 0 20px;
+    text-transform: uppercase;
+    position: relative;
+    box-sizing: border-box;
+
+
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 28px;
+}
+
+.userdata {
+    float: right;
+    margin-right: 100px;
+}
+
+.toast-notification {
+    width: 100% !important;
+}
+
+.toast-notification span{
+    width: 100% !important;
+}
+
+.loader {
+    margin: 100px;
+}

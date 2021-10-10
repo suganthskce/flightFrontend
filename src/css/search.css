@@ -1,0 +1,441 @@
+.filter__container {
+    float: left;
+    width: 18%;
+    height: 80%;
+    padding: 10px;
+}
+
+.filter__price {
+    padding: 10px;
+}
+
+.filter__heading {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.filters {
+    padding: 10px;
+    height: 100px;
+}
+
+.filters__heading {
+    font-size: 20px;
+    position: relative;
+}
+
+.filter__heading > span {
+    position: absolute;
+    left: 200px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+}
+
+.filters__body {
+    font-size: 15px;
+}
+
+.price--view {
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    bottom: 2px;
+    padding: 10px 0 0 2px;
+    color: #4C4C4C;
+}
+
+.price--min {
+    float: left;
+    width: 115px;
+    padding: 0 0 0 15px;
+    position: absolute;
+    left: -20px;
+}
+
+.price--max {
+    float: right;
+    width: 130px;
+    padding: 0 0 0 0;
+    position: absolute;
+    right: -100px;
+}
+
+.listing__container {
+    float: right;
+    width: 79%;
+    height: 75vh;
+    margin-top: 3px;
+}
+
+.flight__container {
+    margin: 0 0 15px 0;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 12%);
+    position: relative;
+}
+
+.flight__card {
+    padding: 0 20px 0 0;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid;
+    position: relative;
+    border-color: #E5E5E5;
+}
+
+.flight__sep {
+    border-bottom: none;
+    cursor: pointer;
+    background: #fff;
+}
+
+.flight_Sep_2 {
+    display: flex;
+    clear: both;
+    cursor: pointer;
+    margin: 0;
+}
+
+.css-fl-company-logo-new {
+    text-align: center;
+    width: 16.8%;
+    padding: 14px 0 10px 0;
+    float: left;
+}
+
+.css-fl-logo-section {
+    padding: 0 0 0 0;
+}
+
+.css-fl-logo-boxes {
+    overflow: hidden;
+}
+
+.css-fl-logo-box-27 {
+    display: inline-table;
+}
+
+.css-fl-logo-box-27 > img {
+    border: 0;
+}
+
+.css-fl-booking-data-new-box {
+    width: 100%;
+    padding: 17px 0 14px 0;
+}
+
+.css-fl-booking-left-info-wrap {
+    float: left;
+    width: 61%;
+    padding: 0 0 0 3.5%;
+}
+
+.css-fl-destination-time {
+    width: 21%;
+    float: left;
+    line-height: 20px;
+}
+
+.css-fl-time {
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    height: 20px;
+}
+
+.css-fl-destination {
+    padding: 0;
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: flex;   
+}
+
+.flights--tooltip  {
+    color: #666;
+    text-align: center;
+}
+
+.css-fl-booking-right-info-wrap {
+    float: right;
+}
+
+.css-fl-book-more-icon {
+    float: right;
+    text-align: right;
+}
+
+.css-fl-price {
+    width: auto;
+    padding: 0 20px 0 0;
+    text-align: right;
+    color: #000;
+    line-height: 24px;
+    float: left;
+}
+
+.css-fl-normal-price {
+    line-height: normal !important;
+}
+
+.css-book-button {
+    padding: 0 0 0 0;
+    float: left;
+}
+
+
+.sort_container {
+    height: 35px;
+    background: #E5F2EF;
+    box-shadow: 0 1px 8px 1px rgb(0 0 0 / 12%);
+    border-bottom: 1px solid #E5E5E5;
+    padding: 0 0 0 25px;
+    position: relative;
+}
+
+.sorting--list {
+    position: relative;
+    width: 100%;
+    min-height: 20px;
+ }
+
+.sorting--list > div {
+    float: left;
+    padding: 0px;
+    margin: 10px !important;
+    font-size: 12px;
+    color: #0c9;
+}
+
+.sorting--list > div > span {
+   cursor: pointer;
+}
+
+
+.depart-cont {
+    padding-left: 140px !important;
+}
+
+.arrive-cont {
+    padding-left: 60px !important;
+}
+
+.duration-cont {
+    padding-left: 170px !important;
+}
+
+.price-cont {
+    position: absolute;
+    right: 90px;
+}
+
+.searchlist__container--image {
+    float: left;
+    width: 20%;
+}
+
+.searchlist__container--detail {
+    float: right;
+    width: 79%;
+}
+
+.hoteldetails {
+    float: left;
+    width: 79%;
+}
+
+.book {
+    float: right;
+    width: 20%;
+    margin-top: 35px;
+}
+
+.bookbtn {
+    background-color: chartreuse;
+    border: 2px solid chartreuse;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.bookbtn:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.promtbox__wrapper {
+    min-width: 400px;
+    min-height: 150px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .promtbox__wrapper--mainheading {
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .promtbox__wrapper--button {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .promtbox__wrapper--content {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .searchbox__container {
+    padding: 20px 55px 10px 55px;
+    margin: 0 auto;
+    min-width: auto;
+    max-width: 1330px;
+    height: 50px;
+    box-shadow: 1px 2px whitesmoke;
+  }
+
+  .searchbox__fields--row1 {
+    clear: both;
+    padding: 0px;
+    border-right: 1px dashed #ccc;
+    width: 78.7%;
+    margin: 0  auto;
+    float: left;
+    position: relative;
+  }
+
+  .searchbox__fields--row1-col2 {
+    padding: 0px;
+    width: 20%;
+    margin: 0  auto;
+    float: right;
+    position: relative;
+  }
+
+  .searchbox__input {
+    border: 1px solid;
+    border-radius: 4px;
+    padding-right: 33px;
+    padding-left: 33px;
+    text-indent: 0;
+    width: 30%;
+    min-height: 30px;
+  }
+
+  .swap {
+      padding: 15px;
+      cursor: pointer;
+  }
+
+  .searchbox__date {
+    border: 1px solid;
+    border-radius: 4px;
+    padding-left: 10px;
+    text-indent: 0;
+    width: 40%;
+    min-height: 30px;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+
+.fromlocation {
+    width: 57%;
+    float: left;
+    border-right: 1px dashed #ccc;
+  }
+
+.datefields {
+    width: 40%;
+    float: right;
+  }
+
+.submit__btn {
+      background-color: #0c9;
+      border: 1px solid #0c9;
+      min-width: 70px;
+      min-height: 35px;
+      border-radius: 4px;
+      font-size: 14px;
+      color: white;
+  }
+
+.submit__btn:hover {
+    border: 1px solid rgb(17, 136, 106);
+    cursor: pointer;
+}
+
+.book__button {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #0c9;
+    font-size: 14px;
+    color: #0c9;
+    min-height: 30px;
+    padding: 7px 15px;
+    border-radius: 4px;
+}
+
+.book__button:hover {
+    background-color: #0c9;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    min-height: 33px;
+}
+
+
+.css-currency {
+    color: black;
+    font-weight: 10px;
+}
+
+.css-fl-duration-stop {
+    text-align: center;
+    padding-left: 215px;
+    font-size: 12px;
+}
+
+.airline__name {
+    font-size: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .css-fl-duration-stop {
+        padding-left: 125px;
+    }
+    .searchbox__container {
+        padding: 20px 25px 10px 10px;
+    }
+    .depart-cont {
+        padding-left: 65px !important;
+    }
+    .arrive-cont {
+        padding-left: 15px !important;
+    }
+    .fromlocation {
+        width: 50%;
+    }
+    .datefields {
+        width: 45%;
+    }
+    .duration-cont {
+        padding-left: 60px !important;
+    }
+    .searchbox__input {
+        width: 15%;
+        font-size: 14px;
+    }
+    .searchbox__date {
+        width: 35%;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .searchbox__fields--row1-col2 > div > input {
+        width: 28%;
+    }
+}
